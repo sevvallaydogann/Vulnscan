@@ -62,4 +62,10 @@ VulnScan/
 ├── main.py             
 ├── requirements.txt    
 ├── scan_report.json    
-└── README.md            
+└── README.md
+ ```
+
+## ⚠️ Legal Disclaimer
+```text
+For educational purposes only.
+        
