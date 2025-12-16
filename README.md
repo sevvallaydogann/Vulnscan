@@ -66,6 +66,5 @@ VulnScan/
  ```
 
 ## ⚠️ Legal Disclaimer
-```text
 For educational purposes only.
         
