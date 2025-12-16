@@ -1,11 +1,11 @@
-# VulnScan - Advanced Web Vulnerability Scanner
+# VulnScan - Web Vulnerability Scanner
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat&logo=python)
 ![Security](https://img.shields.io/badge/Security-Pentesting-red)
 ![CLI](https://img.shields.io/badge/Interface-CLI-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-**VulnScan** is a lightweight, command-line based penetration testing tool designed to automate the detection of common web vulnerabilities. It features a **recursive crawler**, **payload injection engine**, and **smart pattern matching** to identify Reflected XSS and SQL Injection flaws.
+A lightweight, command-line based penetration testing tool designed to automate the detection of common web vulnerabilities. It features a **recursive crawler**, **payload injection engine**, and **smart pattern matching** to identify Reflected XSS and SQL Injection flaws.
 
 ![VulnScan Demo](images/scan_result.png)
 *VulnScan in action: Detecting vulnerabilities and reporting results via CLI.*
