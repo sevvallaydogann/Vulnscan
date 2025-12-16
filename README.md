@@ -24,7 +24,7 @@ Lightweight command-line based penetration testing tool designed to automate the
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/VulnScan.git](https://github.com/YOUR_USERNAME/VulnScan.git)
+    git clone https://github.com/sevvallaydogann/VulnScan.git
     cd VulnScan
     ```
 
