@@ -8,7 +8,7 @@
 Lightweight command-line based penetration testing tool designed to automate the detection of common web vulnerabilities. It features a **recursive crawler**, **payload injection engine**, and **smart pattern matching** to identify Reflected XSS and SQL Injection flaws.
 
 ![VulnScan Demo](scan_result.png)
-*\nVulnScan in action: Detecting vulnerabilities and reporting results via CLI.*
+*VulnScan in action: Detecting vulnerabilities and reporting results via CLI.*
 
 ## Key Features
 
