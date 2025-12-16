@@ -12,13 +12,13 @@
 
 ## Key Features
 
-* ** Recursive Crawler:** Automatically discovers internal links and maps the target website structure.
-* ** Directory Enumeration:** Detects hidden sensitive directories (e.g., `/admin`, `/backup`, `/config`).
-* ** Smart Injection Engine:**
+* **Recursive Crawler:** Automatically discovers internal links and maps the target website structure.
+* **Directory Enumeration:** Detects hidden sensitive directories (e.g., `/admin`, `/backup`, `/config`).
+* **Smart Injection Engine:**
     * **Reflected XSS:** Tests forms with custom script payloads.
     * **SQL Injection:** Checks for database syntax errors to identify potential SQLi flaws.
-* ** JSON Reporting:** Automatically saves scan results and evidence to a structured JSON file for further analysis.
-* ** CLI Support:** Fully configurable via command-line arguments.
+* **JSON Reporting:** Automatically saves scan results and evidence to a structured JSON file for further analysis.
+* **CLI Support:** Fully configurable via command-line arguments.
 
 ## Installation
 
