@@ -56,8 +56,8 @@ python main.py -u [http://target-site.com](http://target-site.com) -o my_report.
 VulnScan/
 │
 ├── images/
-│   └── scan_result.png  # Evidence screenshot
-├── main.py              # Core scanning engine & CLI logic
-├── requirements.txt     # Python dependencies
-├── scan_report.json     # Example output report
-└── README.md            # Documentation
+│   └── scan_result.png 
+├── main.py             
+├── requirements.txt    
+├── scan_report.json    
+└── README.md            
