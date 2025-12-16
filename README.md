@@ -5,7 +5,7 @@
 ![CLI](https://img.shields.io/badge/Interface-CLI-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A lightweight, command-line based penetration testing tool designed to automate the detection of common web vulnerabilities. It features a **recursive crawler**, **payload injection engine**, and **smart pattern matching** to identify Reflected XSS and SQL Injection flaws.
+Lightweight command-line based penetration testing tool designed to automate the detection of common web vulnerabilities. It features a **recursive crawler**, **payload injection engine**, and **smart pattern matching** to identify Reflected XSS and SQL Injection flaws.
 
 ![VulnScan Demo](images/scan_result.png)
 *VulnScan in action: Detecting vulnerabilities and reporting results via CLI.*
@@ -40,3 +40,24 @@ VulnScan is designed to be used from the terminal.
 **Basic Scan:**
 ```bash
 python main.py -u [http://testphp.vulnweb.com](http://testphp.vulnweb.com)
+ ```
+
+**Custom Output File:**
+```bash
+python main.py -u [http://target-site.com](http://target-site.com) -o my_report.json
+ ```
+
+**Arguments**
+* -u, --url : Target URL (Required).
+* -o, --output : Output file name for the report (Default: scan_report.json).
+
+## Project Structure
+```text
+VulnScan/
+│
+├── images/
+│   └── scan_result.png  # Evidence screenshot
+├── main.py              # Core scanning engine & CLI logic
+├── requirements.txt     # Python dependencies
+├── scan_report.json     # Example output report
+└── README.md            # Documentation
